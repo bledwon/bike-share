@@ -1,4 +1,5 @@
-# bike-share
+# bike-share-case-study
+### Overview
 Case study to perform data analysis for a fictional bike-share company in order to help them attract more riders
 
 ## Scenario
