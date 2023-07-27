@@ -1,5 +1,5 @@
 # bike-share-case-study
-### Overview
+## Overview
 Case study to perform data analysis for a fictional bike-share company, Cyclistic in order to help them attract more annual members.
 
 ### Scenario
