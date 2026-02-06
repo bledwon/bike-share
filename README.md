@@ -14,6 +14,7 @@ Identify behavioral differences between members and casual riders to support a c
 ## Data Sources
 - 2019 quarterly trip datasets (Q1–Q4) provided for the Cyclistic case study (Motivate International Inc.).
 - Each file includes: trip_id, start/end time, duration, station info, user type, gender, and birth year.
+- Raw CSVs are not included in this repo. Download them from the case study source and place in `data/raw/`.
 
 ## Analysis Highlights (2019)
 - **Total rides:** 3,818,004
@@ -48,13 +49,18 @@ Identify behavioral differences between members and casual riders to support a c
 - `process.md` — data cleaning and preparation steps
 - `analysis.md` — deeper analysis narrative and chart ideas
 - `case-study-answers.md` — explicit answers to the case study questions
+- `figures/` — charts and slide deck
+
+## View Results
+- Slide deck: `figures/Cyclistic Bike-Share Case Study.pptx`
+- Charts (PNG): `figures/` (e.g., `Rides by Day of Week.png`, `Ride by Month.png`)
 
 ## How to Reproduce
 1. Load the four CSVs into BigQuery as `trips_2019_q1` … `trips_2019_q4`.
 2. Run `sql/analysis.sql` to build a clean view and generate analysis tables.
 3. Or run:
    ```bash
-   python3 /Users/benledwon/Desktop/Github_connection/bike_share/scripts/analyze_2019.py
+   python3 scripts/analyze_2019.py
    ```
    to regenerate `data/processed/` outputs for Excel.
 

@@ -26,13 +26,16 @@ In 2019, Cyclistic members generated **76.9%** of all rides and tended to take s
 - Members behave like commuters: short rides, heavy weekday usage, and strong commute‑window concentration.
 - Casual riders behave like leisure users: longer trips, more weekends, and more round‑trip rides.
 
-## Visualization Ideas
-Use `data/processed/` outputs to build the following charts in Excel:
-- Bar chart: ride counts by day of week, split by user type
-- Line chart: monthly rides by user type
-- Histogram or column chart: avg ride length by day of week
-- Stacked bar: weekend vs weekday share by user type
-- Bar chart: top 10 start stations for casual riders
+## Visualizations (Included)
+Charts are included in `figures/`:
+- `Rides by Day of Week.png`
+- `Ride by Month.png`
+- `Rides by Hour.png`
+- `Avg Ride Length (sec) by Day.png`
+- `Member Trips by Day.png`
+- `Casual Trips by Day.png`
+- `Member Trips by Length.png`
+- `Casual Trips by Length.png`
 
 ## Outputs
 All summary tables are in `data/processed/`:
