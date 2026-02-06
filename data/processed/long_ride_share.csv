@@ -1,0 +1,4 @@
+user_type,rides_over_30m,rides_over_60m,total_rides,share_over_30m,share_over_60m
+member,167600,12230,2937367,0.0571,0.0042
+casual,361087,145490,880637,0.41,0.1652
+unknown,0,0,0,0,0

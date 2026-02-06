@@ -1,0 +1,6 @@
+metric,value
+rows_processed,3818004
+bad_time_rows,0
+bad_duration_rows,0
+usertype_raw:Subscriber,2937367
+usertype_raw:Customer,880637

@@ -1,0 +1,4 @@
+user_type,ride_count,avg_ride_seconds,min_ride_seconds,max_ride_seconds,weekend_rides,weekday_rides
+member,2937367,859.38,61,9056633,543404,2393963
+casual,880637,3420.89,61,10628400,378235,502402
+unknown,0,0,,,0,0
